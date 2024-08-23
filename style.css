@@ -1,0 +1,126 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ECF0F1;
+  color: #2C3E50;
+}
+/* Navbar Styles */
+.navbar {
+  background-color: #2C3E50;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  font-weight: 500;
+}
+.navbar .cta {
+  background-color: #E74C3C;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 100px 30px;
+  background-color: #3498DB;
+  color: white;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+.cta-buttons a {
+  background-color: #E74C3C;
+  padding: 15px 30px;
+  border-radius: 4px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 0 15px;
+  display: inline-block;
+}
+.section {
+  padding: 60px 30px;
+  background-color: white;
+  margin-top: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.card {
+  background-color: #ECF0F1;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card i {
+  font-size: 2rem;
+  color: #E74C3C;
+  margin-bottom: 15px;
+}
+.testimonial-box, .faq-box {
+  background-color: #ECF0F1;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+.testimonial-box i {
+  font-size: 1.5rem;
+  color: #3498DB;
+  margin-bottom: 10px;
+}
+.footer {
+  padding: 40px 30px;
+  background-color: #2C3E50;
+  color: white;
+  text-align: center;
+}
+.footer .social-icons a {
+  margin: 0 10px;
+  color: white;
+  font-size: 1.5rem;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+  }
+  .testimonial-cards {
+    flex-direction: column;
+  }
+  .pricing {
+    flex-direction: column;
+  }
+}

@@ -138,6 +138,69 @@ body {
   background-color: #C0392B;
 }
 
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%;
+  max-width: 500px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.close {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+/* Enhanced CTA Section */
+.cta-section {
+  background-color: #E74C3C;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.cta-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.cta-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cta-section .cta {
+  background-color: white;
+  color: #E74C3C;
+  padding: 15px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cta-section .cta:hover {
+  background-color: #C0392B;
+  color: white;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .cards {
